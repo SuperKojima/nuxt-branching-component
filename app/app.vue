@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Button>
-      <Icon name="ic:baseline-play-arrow" />
-    </Button>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
