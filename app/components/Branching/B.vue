@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import type { Classification } from './type'
+
 const props = defineProps<{
-  classification: 'X' | 'Y' | 'Z'
+  classification: Classification
 }>()
 </script>
 

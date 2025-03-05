@@ -1,15 +1,16 @@
 <script setup lang="ts">
+import type { Classification, Municipality } from './type'
 import BranchingB from './B.vue'
 import BranchingC from './C.vue'
 import BranchingDefault from './Default.vue'
 
 const props = defineProps<{
-  municipality: 'A' | 'B' | 'C'
-  classification?: 'X' | 'Y' | 'Z'
+  municipality: Municipality
+  classification: Classification
 }>()
 
 function getComponent() {
-  switch (props.classification) {
+  switch (props.municipality) {
     case 'B':
       return BranchingB
     case 'C':
