@@ -1,23 +1,8 @@
-# Cloudflare Workers Nuxt Starter
-
-- [Nuxt](https://nuxt.com/docs/guide)
-- [shadcn-vue](https://www.shadcn-vue.com/docs/introduction.html)
-- [Cloudflare Workers](https://developers.cloudflare.com/workers/)
-
-## Setup
+# Branching Component
 
 ```bash
 pnpm install
+pnpm run dev
 ```
 
-## Development
-
-```bash
-pnpm dev
-```
-
-## Deployment
-
-```bash
-pnpm deploy
-```
+http://localhost:3000/?municipality=A&classification=X
